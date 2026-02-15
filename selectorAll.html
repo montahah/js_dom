@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button>Button - 1</button>
+    <button>Button - 2</button>
+    <script>
+      let allButton = document.querySelectorAll("button");
+      allButton.forEach((btn) => {
+        btn.style.padding = "10px";
+        btn.style.color = "white";
+        btn.style.backgroundColor = "tomato";
+      });
+    </script>
+  </body>
+</html>
