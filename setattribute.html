@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <img width="50%" src="./img.png" alt="" id="pic" />
+    <br /><br /><button onclick="changePic()">Change</button>
+    <script>
+      function changePic() {
+        let img = document.getElementById("pic");
+        img.setAttribute("src", "img2.png");
+      }
+    </script>
+  </body>
+</html>
