@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="hello-1">Hello Section - 1</section>
+    <section id="hello-2">Hello Section - 2</section>
+    <section id="hello-3">Hello Section - 3</section>
+    <section id="hello-4">Hello Section - 4</section>
+    <section id="hello-5">Hello Section - 5</section>
+    <script>
+      const sections = document.querySelectorAll("section");
+      for (const section of sections) {
+        section.style.padding = "20px";
+        section.style.backgroundColor = "lightblue";
+        section.style.border = "1px solid black";
+        section.style.marginBottom = "10px";
+        section.style.borderRadius = "10px";
+      }
+    </script>
+  </body>
+</html>
